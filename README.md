@@ -4,11 +4,15 @@
 * Email (@ccc): 
 * Matrícula: 
 
-# Roteiro: Nome do Roteiro
+# Roteiro: Ordenação $n^2$
+
+## Material Teórico
+
+[Selection Sort](https://joaoarthurbm.github.io/eda/posts/selection-sort/)
+
+[Insertion Sort](https://joaoarthurbm.github.io/eda/posts/insertion-sort/)
 
 ## O template
-
-> Não altere o arquivo pom.xml
 
 > Não altere o arquivo build.gradle
 
@@ -16,7 +20,9 @@
 
 > Os testes estarão (ou você terá que incluir) no diretório **/src/test/java/**
 
-> Seu código é tão bom quanto seus testes. Eu vou executar meus testes quando você submeter.
+> Seu código é tão bom quanto seus testes.
+
+> Eu vou executar meus testes quando você submeter.
 
 > Não mude nenhuma assinatura de método, nome de classe ou localização dos arquivos. Mas você pode/deve criar outros métodos e classes, desde que passem nos testes.
 
@@ -24,12 +30,12 @@
 
 > Executando os testes: `gradle test` na raiz do projeto.
 
-
 ## Introdução
 
-Depois deste roteiro você será capaz de ...
+Este roteiro envolve implementação e análise do principais algoritmos de ordenação $O(n^2)$.
 
-**O exemplo.** Vamos trabalhar com ... 
+**O exemplo.** Antes de implementarmos os algoritmos de ordenação, vamos falar sobre duas rotinas básicas bem importantes relacionadas ao Selection Sort e ao
+Insertion Sort. 
 
 Agora é com vocês!
 
