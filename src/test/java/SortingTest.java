@@ -1,9 +1,8 @@
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-public class RoteiroTest {
+public class SortingTest {
     
-    // TODO: Implementar testes!
     @Test
     public void test() {
     }
