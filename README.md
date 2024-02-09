@@ -34,8 +34,7 @@
 
 Este roteiro envolve implementação e análise do principais algoritmos de ordenação $O(n^2)$.
 
-**O exemplo.** Antes de implementarmos os algoritmos de ordenação, vamos falar sobre duas rotinas básicas bem importantes relacionadas ao Selection Sort e ao
-Insertion Sort. 
+**O exemplo.** Antes de implementarmos o Insertion Sort, vamos falar de uma rotina básica muito importante desse algoritmo: a inserção ordenada.
 
 Agora é com vocês!
 
