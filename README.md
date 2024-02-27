@@ -32,37 +32,58 @@
 
 ## Introdução
 
-Este roteiro envolve implementação e análise do principais algoritmos de ordenação $O(n^2)$.
+Este roteiro envolve implementação dos principais algoritmos de ordenação $O(n^2)$.
 
-**O exemplo.** Antes de implementarmos o Insertion Sort, vamos falar de uma rotina básica muito importante desse algoritmo: a inserção ordenada.
+Você vai ver que o design do código do template envolve a interface SortingStrategy e que ambos, InsertionSort e SelectionSort implementam essa interface.
 
-Agora é com vocês!
 
 ## A tarefa. 
 
 ### Implementação e testes
 
-Comece ...
 
+**InsertionSort.** Comece pelo insertion. Mais precisamente, pelos dois métodos de inserção ordenada. Depois passe para o método de ordenação clássico (que pode ou não usar os métodos que você fez anteriormente) e a sua implementação recursiva. Seu objetivo é passar nos testes que disponibilizei.
+
+**SelectionSort.** Nem sempre os testes serão entregues. Você deve ser capaz de fazer seus próprios testes. Para o selection, além de implementar o que foi pedido, você deverá criar também uma classe de teste no diretório `src/test/java`. Inspire-se nos testes que criei para o insertion.
 
 Ah...confira (sempre!) se você passa nos testes: `gradle test`.
 
-### Análise
+### Teoria
 
 Perguntas importantes:
-  * Pergunta 1?
+  * Qual o pior caso do insertion sort?
 
   > INSIRA SUA RESPOSTA AQUI
 
-  * Pergunta 2?
+  * Qual o pior caso do selection sort?
 
   > INSIRA SUA RESPOSTA AQUI
+
+  * Em termos de trocas, como você compararia o insertion sort e o selection sort?
+
+  > INSIRA SUA RESPOSTA AQUI
+
+  * Em termos de comparaçõeas, como você compararia o insertion sort e o selection sort?
+
+  > INSIRA SUA RESPOSTA AQUI
+
+  * Mostre com um exemplo concreto que o selection não é estável.
+
+  > INSIRA SUA RESPOSTA AQUI
+
+  * O insertion é estável? Argumente com um exemplo concreto.
+
     
 ## Mais estudo
 
-Implemente as seguintes questões (com recursividade) no tst-eda:
-* ...
-* ...
+Implemente as seguintes questões no tst-eda:
+
+* Insere Último
+* Insere Primeiro
+* InsertionSort Recursivo
+* Selection sort passo a passo
+* SelectionSort Recursivo
+* Mariana e os livros
 
 ## Entregando o lab
 
@@ -75,5 +96,5 @@ Implemente as seguintes questões (com recursividade) no tst-eda:
 > Passo 3. Submeta as suas modificações para o repositório
 
   * `git pull`
-  * `git commit -m "entregando o lab de algoritmos recursivos"`
+  * `git commit -m "entregando o lab"`
   * `git push origin main`
