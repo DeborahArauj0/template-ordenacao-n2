@@ -44,7 +44,7 @@ Você vai ver que o design do código do template envolve a interface SortingStr
 
 **InsertionSort.** Comece pelo insertion. Mais precisamente, pelos dois métodos de inserção ordenada. Depois passe para o método de ordenação clássico (que pode ou não usar os métodos que você fez anteriormente) e a sua implementação recursiva. Seu objetivo é passar nos testes que disponibilizei.
 
-**SelectionSort.** Nem sempre os testes serão entregues. Você deve ser capaz de fazer seus próprios testes. Para o selection, além de implementar o que foi pedido, você deverá criar também uma classe de teste no diretório `src/test/java`. Inspire-se nos testes que criei para o insertion.
+**SelectionSort.** Nem sempre os testes serão entregues. Você deve ser capaz de fazer seus próprios testes. Para o selection, além de implementar os dois métodos que foram pedidos, você deverá criar também uma classe de teste no diretório `src/test/java`. Inspire-se nos testes que criei para o insertion.
 
 Ah...confira (sempre!) se você passa nos testes: `gradle test`.
 
