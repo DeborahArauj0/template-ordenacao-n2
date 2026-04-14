@@ -1,11 +1,10 @@
-package sorting;
-
 public class SelectionSort implements SortingStrategy {
 
     /**
     * Ordena um array de inteiros utilizando o selection sort.
     */
     public void sort(int[] v) {
+        // TODO: implementar
     }
 
     /**
@@ -16,6 +15,7 @@ public class SelectionSort implements SortingStrategy {
     * métodos para te auxiliar na recursão.
     */
     public void sortRecursivo(int[] v) {
+        // TODO: implementar
     }
     
 }

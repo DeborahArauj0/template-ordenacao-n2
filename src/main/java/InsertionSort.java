@@ -1,5 +1,3 @@
-package sorting;
-
 public class InsertionSort implements SortingStrategy {
 
     /**
@@ -18,14 +16,14 @@ public class InsertionSort implements SortingStrategy {
     * Importante: seu algoritmo deve ser O(n);
     */
     public void inserePrimeiroOrdenado(int[] v) {
-        // TODO implementar
+        // TODO: implementar
     }
 
     /**
     * Ordena um array de inteiros utilizando o insertion sort.
     */
     public void sort(int[] v) {
-        //TODO implementar
+        // TODO: implementar
     }
 
     /**
@@ -36,8 +34,7 @@ public class InsertionSort implements SortingStrategy {
     * métodos para te auxiliar na recursão.
     */
     public void sortRecursivo(int[] v) {
-        //TODO implementar
-    }
-    
+        // TODO: implementar
+    }  
 
 }
