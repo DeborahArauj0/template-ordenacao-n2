@@ -7,6 +7,17 @@ public class InsertionSort implements SortingStrategy {
     */
     public void insereUltimoOrdenado(int[] v) {
         // TODO: implementar
+        int inserido = v[v.length -1]; //ultimo elemento desordenado
+        
+        int i = v[v.length -2]; //a partir do vizinho dele à esquerda 
+        //enquanto não achar um menor que ele, ele anda
+        while(i >= 0 && v[i] > inserido ) {
+            v[i + 1] = v[i];
+            v[i] = inserido;
+            i--;
+        }
+        v[i + 1] = inserido;
+        
     }
    
     /**

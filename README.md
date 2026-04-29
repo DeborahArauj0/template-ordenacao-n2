@@ -78,11 +78,7 @@ Perguntas importantes:
 
 > [3a, 6a, 6b, 3b] //3a está na posição correta, partindo para o próximo índice  
 
->  ^  
-
-> [3a, 6a, 6b, 3b] //3b é o segundo menor elemento no array, trocamos com 6a  
-
->     ^  
+> [3a, 6a, 6b, 3b] //3b é o segundo menor elemento no array, trocamos com 6a    
 
 > [3a, 3b, 6b, 6a] //array ordenado, mas não estável. A estábilidade foi  
 preservada apenas para os dois primeiros elementos  
