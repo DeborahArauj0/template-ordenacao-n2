@@ -1,8 +1,8 @@
 # Identificação
 
-* Nome:
-* Email (@ccc):
-* Matrícula:
+* Nome: Deborah dos Santos Araujo
+* Email (@ccc): deborah.araujo@ccc.ufcg.edu.br
+* Matrícula: 20250030337
 
 # Roteiro: Ordenação $n^2$
 
@@ -50,25 +50,42 @@ Perguntas importantes:
 
 * Qual o pior caso do insertion sort?
 
-> INSIRA SUA RESPOSTA AQUI
+> Quando o elemento inserido está na ordem reversa do array ordernado. Por
+> exemplo, para um array ordenado do menor para o maior e o novo elemento é
+> inserido no final do array, ele precisará percorrer toda a lista para se
+> alocar no início dela.O mesmo ocorre com um cenário contrário, para uma lista
+> do maior para o menor e um maior elemento inserido no início
 
 * Qual o pior caso do selection sort?
 
-> INSIRA SUA RESPOSTA AQUI
+> Independente dele está ordenado ou não ele sempre faz muitas trocas
 
 * Em termos de trocas, como você compararia o insertion sort e o selection sort?
 
-> INSIRA SUA RESPOSTA AQUI
+> O insertion sort possui mais vantagens, ele faz menos trocas que o selection
+> sort, ele compara mais elementos, mas substitui apenas quando o elemento
+> comparado é menor ou maior. Por outro lado o selection não, ele sempre vai
+> trocar todo elemento do array, embora já esteja ordenado.
 
-* Em termos de comparaçõeas, como você compararia o insertion sort e o selection sort?
+* Em termos de comparações, como você compararia o insertion sort e o selection sort?
 
-> INSIRA SUA RESPOSTA AQUI
+> O selection sort tem mais vantagem, ele não compara tantas vezes quanto o
+> inserction sort. 
 
 * Mostre com um exemplo concreto que o selection não é estável.
 
-> INSIRA SUA RESPOSTA AQUI
+> considerando A e B como ordem de elementos, temos que um array [3a, 6a, 6b, 3b] é um caso claro que quebra a regra de estabilidade. 
+[3a, 6a, 6b, 3b] //3a está na posição correta, partindo para o próximo índice
+ ^
+[3a, 6a, 6b, 3b] //3b é o segundo menor elemento no array, trocamos com 6a
+     ^
+[3a, 3b, 6b, 6a] //array ordenado, mas não estável. A estábilidade foi
+preservada apenas para os dois primeiros elementos
 
 * O insertion é estável? Argumente com um exemplo concreto.
+
+> Sim, como as trocas são feitas sempre com vizinhos "empurrando" os elementos
+> quando trocas são feitas, a estabilidade é preservada.
 
 ## Mais estudo
 
